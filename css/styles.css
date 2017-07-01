@@ -1,0 +1,45 @@
+body {
+	font-family: Archivo Narrow, sans-serif;
+}
+
+.container {
+	width: 1082px;
+}
+/* HEADER */
+
+/* top-header */
+
+.top-header p {
+	display: inline;
+	text-align: center;
+}
+
+.top-header {
+	text-align: center;
+}
+
+.logo{
+	display: inline;
+}
+
+.ligne {
+	border-left: 1px solid #eeece8;
+	height: 12px;
+}
+
+.recherche {
+	float: right;
+} 
+
+/* navbar */
+
+
+/* baseline */
+.baseline img, .row img {
+	-webkit-filter:brightness(50%);
+	opacity: 0.9;
+}
+
+.row img {
+	padding-top: 30px;
+}
