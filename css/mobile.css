@@ -1,22 +1,24 @@
 @media all and (max-device-width: 315px) {
 
+	/* GENERAL */
+
 	body {
 		margin: 0 auto;
 		padding: 0;
 	}
+
 	.container {
 		max-width: 315px;
 		padding: 0;
 		margin:0;
 	}
-	.navbar-header {
-		max-width: 315px;
-	}
+
+	/* HEADER*/
+
 	.top-header p {
 		display: inline;
 		text-align: center;
 	}
-
 	.box-1 {
 		padding: 0;
 		display: inline-block;
@@ -27,21 +29,28 @@
 
 	}
 
+	/* top-logo*/
+
 	.top-logo {
 		display: inline;
 	}
-
 	.recherche {
 		display: inline;
 	} 
 
-	.baseline {
-		padding-bottom: 250px;
+
+	/* navbar*/
+
+	.navbar-header {
+		max-width: 315px;
 	}
 
-	.baseline img {
-		max-width:105%;
-		-webkit-filter:brightness(100%)
+	/* BASELINE*/
+
+
+	
+	.baseline {
+		padding-bottom: 250px;
 	}
 
 	.gros-titre {
@@ -51,12 +60,6 @@
 		color: black;
 		font-size: 0.5em;
 		padding-bottom: 150px;
-
-
-	}
-	.btn-2 {
-		font-size: 2.2em;
-
 	}
 
 	h1 {
@@ -65,6 +68,20 @@
 		font-size: 6.2em;
 
 	}
+
+	.btn-2 {
+		font-size: 2.2em;
+
+	}
+
+	.baseline img {
+		max-width:105%;
+		-webkit-filter:brightness(100%)
+	}
+
+
+	/* titre sur les 3 images*/
+
 
 	.titre-1 {
 		margin:0;
@@ -87,6 +104,8 @@
 
 	}
 
+/* POSTS*/
+
 	#posts {
 		position: absolute ; z-index:1;
 		margin-top: 650px;
@@ -96,6 +115,8 @@
 	.barre-sous-recent {
 		visibility: hidden;
 	}
+
+	/* citation*/
 
 	.rectangle-1 {
 		margin-top: 90px;
@@ -123,6 +144,8 @@
 		padding-left: 55px;
 		width: 200px;
 	}
+
+/* footer*/
 
 	footer {
 		padding-left: 20px;
